@@ -1,0 +1,92 @@
+.innerplace {
+   text-align: center;
+   background-color:darkcyan;
+   border: 2px solid ;
+   padding-left: 200px;
+   padding-right: 200px;
+   color:white;
+   font-weight: 5000;
+   max-width: fit-content;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 25px;
+
+}
+
+.firsthalf input{
+    margin-left: 200px;
+    width:900px;
+    background-color: aliceblue;
+    border: 1px solid;
+    height: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    
+}
+
+.firsthalf{
+        background-color: #add8e6;
+}
+
+.firsthalf button{
+    margin-left: 1105px;
+    width: 150px;
+    height: 29px;
+    position: relative;
+    top: -28.5px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    
+}
+
+
+ul{
+    text-align: center;
+    margin-left: 230px;
+    margin-top: -1px;
+    font-size: xx-large;
+    font-weight: 300px;
+    border: 1px solid;
+    width: 1000px;
+    background-color: rgb(4, 125, 4);
+    color: white;
+    position: relative;
+    padding-left: 10x;
+    border-radius: 25px;
+    list-style-type: none;
+   
+}
+
+li {
+    text-align: left; 
+    border: 1px solid;
+    height: 27px;
+    border-radius: 10px;
+    width: 490px;
+    margin-top: 10px;
+    font-size: large;
+    color: black;
+    background-color: white;
+    margin-left: 250px;
+    position: relative; 
+    padding-right: 40px; 
+}
+
+#DeleteButton {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 25px;
+    background-color: orange; /* Optional: add distinct color for visibility */
+    color: black;         /* Optional: make text color white */
+    position: absolute;   /* Position it absolutely within the `li` */
+    top:1px;           /* Center vertically */
+    right: 10px;          /* Position it 10px from the right edge */
+     /* Adjust vertical centering */
+}
+
+li.completed{
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+
